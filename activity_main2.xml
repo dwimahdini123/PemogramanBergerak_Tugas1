@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity2">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Hasil"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Panjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/Lebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tampilanluas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hasil Luas"
+        android:background="#AD0CC8"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/HasilLuas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:hint="Luas"
+        android:inputType="none" />
+
+    <TextView
+        android:id="@+id/tampilankeliling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hasil Keliling"
+        android:background="#AD0CC8"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/Hasilkeliling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:hint="Keliling"
+        android:inputType="none" />
+
+</LinearLayout>
